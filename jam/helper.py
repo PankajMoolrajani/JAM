@@ -6,10 +6,10 @@ class DB:
         pass
 
     def connect(self):
-        hostname = 'dev.monoxor.com'
-        dbname = 'jam'
-        username = 'jam'
-        password = 'jam'
+        hostname = 'hostname'
+        dbname = 'dbname'
+        username = 'username'
+        password = 'password'
 
         connection = MySQLdb.connect(hostname, username, password, dbname)
         return connection
