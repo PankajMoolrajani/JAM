@@ -1,0 +1,168 @@
+.menu-top-item {
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  color: #cecece;
+}
+
+.textbox {
+  display: block;
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.lbl-textbox {
+  display: block;
+  width: 400px;
+  margin: 20px auto 10px;
+}
+
+.form-title-add {
+  display: block;
+  margin-top: 58px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.button-title-add {
+  display: block;
+  width: 150px;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  float: none;
+}
+
+.table-title {
+  display: block;
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header-section {
+  background-color: #565a58;
+  font-family: Montserrat, sans-serif;
+  color: #9e9090;
+  font-size: 15px;
+}
+
+.header-navbar {
+  background-color: transparent;
+  color: #8b8d99;
+  font-size: 15px;
+  font-style: normal;
+  text-align: left;
+  text-decoration: none;
+}
+
+.card-title {
+  display: block;
+  width: 290px;
+  margin: 10px;
+  padding: 15px 10px 10px;
+  float: left;
+  background-color: #565a58;
+  color: #cecece;
+  text-align: center;
+}
+
+.card-section {
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.body {
+  background-color: rgba(150, 145, 145, 0.5);
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+}
+
+.card-title-text {
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.logo-text {
+  display: block;
+  margin: 30px auto 10px;
+  font-size: 50px;
+  line-height: 0px;
+  font-weight: 700;
+}
+
+.form-application-add {
+  margin-top: 30px;
+}
+
+.form-application-add-textbox {
+  width: 280px;
+  margin-right: 20px;
+  float: left;
+  clear: none;
+}
+
+.form-application-add-label {
+  width: 280px;
+  margin-top: 20px;
+  margin-right: 20px;
+  float: left;
+}
+
+.form-application-add-submit {
+  position: static;
+  display: block;
+  width: 150px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 9px;
+  float: none;
+}
+
+.card-application-title {
+
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.card-application-company {
+  margin-bottom: 10px;
+
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.card-application-next_action {
+
+  font-size: 12px;
+  text-align: left;
+}
+
+.form-application-add-width-880 {
+  width: 880px;
+}
+
+.card-application {
+  display: block;
+  margin: 10px;
+  padding: 15px 10px 10px;
+  float: left;
+  background-color: #565a58;
+  color: #cecece;
+  text-align: left;
+}
+
+
+
+@media (max-width: 991px) {}
+
+@media (max-width: 767px) {}
+
+@media (max-width: 479px) {}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- This site was created in Webflow. http://www.webflow.com-->
+<!-- Last Published: Wed Dec 30 2015 13:57:06 GMT+0000 (UTC) -->
+<html data-wf-site="567a838e9eced24970253357" data-wf-page="567a8c199d99ba0641170052">
+<head>
+  <meta charset="utf-8">
+  <title>Titles</title>
+  <meta name="description" content="Job Titles">
+  <meta property="og:title" content="titles">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="Webflow">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/webflow.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/jam-ce6375.webflow.css') }}">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ["Montserrat:400,700"]
+      }
+    });
+  </script>
+  <script type="text/javascript" src="{{ url_for('static', filename='js/modernizr.js') }}"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="https://daks2k3a4ib2z.cloudfront.net/img/favicon.ico">
+  <link rel="apple-touch-icon" href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png">
+</head>
+<body class="body">
+  <div class="w-section header-section">
+    <div class="w-container">
+      <div data-collapse="medium" data-animation="default" data-duration="400" data-contain="1" class="w-nav header-navbar">
+        <div class="w-container header-navbar">
+          <a class="w-nav-brand">
+            <div class="logo-text">JAM</div>
+          </a>
+          <nav role="navigation" class="w-nav-menu"><a href="/application" class="w-nav-link menu-top-item">Applications</a><a href="#" class="w-nav-link menu-top-item">Companies</a><a href="/title" class="w-nav-link menu-top-item">Titles</a><a href="#" class="w-nav-link menu-top-item">Documents</a><a href="#" class="w-nav-link menu-top-item">User</a>
+          </nav>
+          <div class="w-nav-button">
+            <div data-ix="new-interaction" class="w-icon-nav-menu"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-section">
+    <div class="w-container">
+      <div>
+        <div class="w-form">
+          <form id="email-form" name="email-form" data-name="Email Form" class="form-title-add" action="/title/create" method="post">
+            <label for="textbox-title" class="lbl-textbox">Title Name:</label>
+            <input id="textbox-title" type="text" placeholder="Enter Title" name="textbox-title" data-name="textbox-title" class="w-input textbox">
+            <label for="textarea-title" class="lbl-textbox">Description:</label>
+            <textarea id="textarea-title" placeholder="Enter Description" name="textarea-title" data-name="textarea-title" class="w-input textbox"></textarea>
+            <input type="submit" value="ADD" data-wait="Please wait..." class="w-button button-title-add">
+          </form>
+          <div class="w-form-done">
+            <p>Thank you! Your submission has been received!</p>
+          </div>
+          <div class="w-form-fail">
+            <p>Oops! Something went wrong while submitting the form</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-section w-clearfix card-section">
+    {% for title in list_titles %}
+      <div class="card-title">
+      <div class="card-title-text">{{ title }}</div>
+    </div>
+    {% endfor %}
+    <div class="card-title">
+      <div class="card-title-text">Application &nbsp;Security Engieer</div>
+    </div>
+    <div class="card-title">
+      <div class="card-title-text">Network Security Engineer</div>
+    </div>
+    <div class="card-title">
+      <div class="card-title-text">Jr InfoSec Engineer</div>
+    </div>
+    <div class="card-title">
+      <div class="card-title-text">Software Engineer</div>
+    </div>
+    <div class="card-title">
+      <div class="card-title-text">Software Engineer</div>
+    </div>
+    <div class="card-title">
+      <div class="card-title-text">Software Engineer</div>
+    </div>
+    <div class="card-title">
+      <div class="card-title-text">Software Engineer</div>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='js/webflow.js') }}"></script>
+
+  <!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+</body>
+</html>
